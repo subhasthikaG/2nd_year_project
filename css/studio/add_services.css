@@ -1,0 +1,340 @@
+body {
+	background: rgba(223, 223, 235, 0.5);
+	position: relative;
+}
+
+main{
+	padding-top: 5%;
+}
+
+h1 {
+	color: rgb(18, 17, 17);
+	font: 30px Arial, sans-serif;
+
+}
+h2{
+	color: rgb(29, 23, 23);
+	font: 20px Arial, sans-serif;
+	margin-left: 20%;
+
+  }
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+
+
+/* SLIDE TWO */
+.slideTwo {
+	width: 80px;
+	height: 30px;
+	background: #333;
+	margin: 10px auto;
+ 
+	
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;	
+}
+/* line */
+.slideTwo:after {
+	content: '';
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	height: 2px;
+	width: 52px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background: #111;
+}
+/* white round */
+.slideTwo label {    
+	display: block;
+	width: 22px;
+	height: 22px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 4px;
+	z-index: 1;
+	left: 4px;
+
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	background: #fcfff4;
+
+	
+}
+/* miiddle round */
+.slideTwo label:after {
+	content: '';
+	position: absolute;
+	width: 11px;
+	height: 11px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background: #333;
+	left: 6px;
+	top: 6px;
+}
+
+.slideTwo input[type=checkbox]:checked + label {
+	left: 54px;
+}
+
+.slideTwo input[type=checkbox]:checked + label:after {
+	background: #2c22b7;
+}
+.description {
+	display: block;
+	position: relative;	
+	padding-right: 50px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	/* background: linear-gradient(to right,rgb(82, 110, 209),rgb(72, 88, 189)); */
+	width: 150%;
+	height: 40px;
+	border-radius: 5px;	
+  } 
+
+  
+  .open-button {
+	background: linear-gradient(to right,rgb(74, 73, 92),rgb(66, 62, 74));
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: 0.8;
+	float: left;	
+	display: block;
+  }
+  
+  .form-popup {
+	bottom: 0;
+	z-index: 9;
+  }
+  
+  
+  .form-container {
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	
+  }
+  
+
+  .form-container input[type=text]{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 12px 0;
+	border: none;
+	background-color: rgb(209, 201, 201);
+  }
+  
+  
+  .form-container input[type=text]:focus, form.form-container input[type=text]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  
+  .form-container .btn {
+	background: linear-gradient(to right,rgb(74, 73, 92),rgb(66, 62, 74));
+	color: rgb(241, 234, 234);
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+	font-size: 1rem;
+  }
+  
+  
+  .form-container .cancel {
+	background: linear-gradient(to right,rgb(61, 6, 30),rgb(87, 8, 34));
+  }
+
+  .form-container .save {
+	margin-top: 10px;
+  }
+
+  .form-container .service {
+	color: rgb(19, 19, 7);
+	font: 15px Arial, sans-serif;
+  }
+  
+  .form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+  }
+
+  .row {
+	position: relative;
+    display: table;
+    width: 100%; 
+    table-layout: fixed; 
+	border-spacing: 5px; 
+	left: 5%;   
+}
+.column {
+	display: table-cell;	
+	position: relative;
+	padding-right: 100px;
+}
+
+.addtitle{
+	border-bottom:2px solid black;
+	margin-bottom:5%;
+	font-size: 1.5rem;
+	padding: 10px;
+	background-color: rgb(202, 198, 198);
+}
+
+.adds{
+	border: 1px solid black;
+	margin-left: 5%;
+}
+
+.mys{
+	border: 1px solid black;
+}
+
+table {
+	font: 10px Arial, sans-serif;
+	border-spacing: 0.5rem;	
+  }
+  th{
+	padding: 2rem;	
+	border: 1px solid black;
+  }
+  td {
+	padding: 1rem;	
+	border: 1px solid black;
+  }
+  th:nth-child(1) { background: hsl(234, 48%, 74%); }
+  th:nth-child(2) { background: hsl(221, 53%, 71%); }
+  td:nth-child(1) { background: hsl(219, 45%, 70%); }
+  td:nth-child(2) { background: rgb(127, 162, 233); }
+  td:nth-child(3) { background: hsl(227, 65%, 67%); }
+  td:nth-child(4) { background: hsl(232, 76%, 75%); }
+  td:nth-child(5) { background: hsl(227, 61%, 68%); }
+  td:nth-child(6) { background: hsl(230, 75%, 69%); }
+ 
+
+
+  *::after,
+  *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	font-size: 62,5%;
+  }
+
+  
+  .form__label {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	margin-top: 1rem;
+	/* display: inline-block; */
+	transition: all 0.3s;
+	transform: translateY(0rem);
+	color: rgb(11, 11, 4);
+	width: 80%;
+  }
+  
+  .form__input {
+	padding: 0.4rem 1rem;
+	/* border-radius: 0.2rem; */
+	background-color: rgb(209, 201, 201);
+	border: none;
+	width: 80%;
+	/* display: inline-block; */
+	margin-bottom:20px;
+  }
+
+  .form__input:focus{
+	background: #ddd;
+	outline: none;
+  }
+  
+  .form__input:placeholder-shown + .form__label {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translateY(-4rem);
+	transform: translateY(-4rem);
+  }
+  
+ 
+  .service_form .btn {
+	background: linear-gradient(to right,rgb(74, 73, 92),rgb(66, 62, 74));
+	color: rgb(241, 234, 234);
+	padding: 10px 50px;
+	border: none;
+	font-size: 1rem;
+	cursor: pointer;	
+	margin-bottom:20px;
+	margin-right: 50px;
+	opacity: 1;
+  }
+
+  @media(min-width:1920px){
+	.form-container{
+	  max-width: 450px;	
+	}
+	.form-container .btn{
+	  padding: 15px 25px;
+	}
+	.form-container input[type=text]{
+	  padding: 15px 25px;
+	  font-size: 1rem;	
+	} 
+	.form-container .service{
+	  font-size: 18px;	
+	}
+	.form-container .save {
+	  margin-top: 20px;
+	}
+	.form__input{
+	  width: 53%;
+	  padding: 0.7rem 1rem;
+	  font-size: 1rem;
+	}
+	.service_form .btn{
+	  margin-left: 244px;
+	  width: 150px;
+	  padding: 0.7rem 1rem;	
+	  font-size: 1rem;
+	}
+	.service_form .save2{
+	  margin-left: 255px;	
+	}
+  }
+  
+ 
+  
+  
+  
+  

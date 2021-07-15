@@ -1,0 +1,36 @@
+body{
+  background: rgba(223, 223, 235, 0.5);  	
+}
+
+.container{
+  font-family: sans-serif;	
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  border: 1px solid black;
+  height: 300px;
+  background-color:aliceblue;	
+}
+
+.container input[type="submit"]{
+  padding: 0 11px;
+  color: rgb(235, 241, 241);
+  background-color: rgb(95, 95, 92);
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  font-size: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%,-50%);
+  font-weight: bold
+}
+
+.container h1{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+}

@@ -1,0 +1,77 @@
+table{
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color:transparent;
+    border:1px solid #dee2e6;
+    border-spacing: 0;
+    border-collapse:collapse;
+  }
+
+  td,th{
+    width: 10%;
+    padding: 8px;
+    vertical-align:top;
+    border:1px solid #989b9e;
+    border-top:1px solid #989b9e;
+  }
+  
+  td{
+    height: 75px;
+  }
+  
+  h4{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .row{
+    margin-top: 20px;
+  }
+
+  h2{
+    font-weight:500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .cbtn{
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(21, 142, 223);
+  }
+
+  .nabtn,.avbtn,.holbtn{
+    color: white;
+    background-color: rgba(255, 0, 0,0.6);
+    border: none;
+    padding: 4px 7px;
+    border-radius: 15%;
+  }
+
+  .holbtn:hover{
+    cursor:pointer;
+    background-color: rgba(255, 128, 82,1);
+  }
+
+  .avbtn:hover{
+    cursor:pointer;
+    background-color: rgba(22, 172, 97, 1);
+  }
+
+  .nabtn:hover{
+    cursor:pointer;
+    background-color: rgba(255, 0, 0,1);
+  }
+
+  .avbtn{
+    background-color: rgba(22, 172, 97, 0.9);
+  }
+
+  .holbtn{
+    background-color: rgba(255, 128, 82,0.9);
+  }

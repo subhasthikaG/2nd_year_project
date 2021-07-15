@@ -1,0 +1,43 @@
+body{
+	background-image: linear-gradient(rgba(255,255,255,0.9),rgba(10,55,255,0.9)),url('../img/studio.jpg');
+	height: 100vh;
+	overflow:auto;
+	box-sizing: border-box;
+	background-size: contain;
+}
+
+.column{
+	width: 50%;
+	float: left;
+}
+
+.cus a, .stu a{
+	display: block;
+	width: 450px;
+	height: 300px;
+	overflow: auto;
+	position: absolute;
+	top: 30%;
+	background-size: contain;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	padding: 120px 0;
+	font-size: 45px;
+	opacity: 0.9;
+}
+
+.cus a{
+	left: 10%;
+	background-image: url('../img/2020.10.11.0h21m37s.jpg');
+}
+
+.stu a{
+	right: 10%;
+	background-image: url('../img/2020.10.11.0h22m41s.jpg');
+}
+
+.cus a:hover, .stu a:hover{
+	font-size: 47px;
+	opacity: 1;
+}

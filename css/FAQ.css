@@ -1,0 +1,83 @@
+body{
+  background-image:linear-gradient(to right,rgba(0,0,0,1),rgba(25,105,255,0.6)), url('../img/eply-9.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  position: relative;
+  display: flex;
+  }
+
+.primary{
+  margin-top: 100px;
+  padding-left: 50px;
+  font-family: sans-serif;
+  width: 48%;
+  margin-bottom: 50px;
+} 
+
+.secondary{
+  margin-top: 100px;
+  width: 48%;
+  margin-left: 600px;
+  display: inline;
+  padding-top: 450px;
+  position: fixed;
+}
+
+.collapsible {
+    font-family: cursive;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    width: 500px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  
+  .active, .collapsible:hover {
+    background-color:transparent;
+    text-decoration: none;
+  }
+  
+  .content {
+    font-family: cursive;  
+    font-size: 15px;
+    width: 550px;
+    color: white;
+    padding: 0 35px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  } 
+
+  .socialab{
+    text-decoration: none;  
+    color: white;
+    font-size: 1.25em;
+    margin: 3px 10px;
+  }
+
+  @media(min-width:1920px){
+    .collapsible{
+      font-size: 23px;
+      width: 700px;
+    }
+    .content{
+      font-size: 20px;
+      width: 700px;
+    }
+    .secondary{
+      margin-left: 800px;
+      padding-top: 750px;
+    }
+    .socialab{
+      font-size: 1.45em;
+    }
+  }

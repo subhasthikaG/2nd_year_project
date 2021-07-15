@@ -1,0 +1,47 @@
+body{
+  background-image:linear-gradient(to right,rgba(0,0,0,1),rgba(25,105,255,0.3)), url('../img/about1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  position: relative;
+  display: flex;
+}
+
+main{
+  margin-top: 150px;
+  margin-left: 100px;
+  font-family: cursive;
+  max-width: 40%;  
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+  border-bottom: 1.5px solid #949090;
+  padding-bottom: 2px;  
+}
+
+p{
+  color: white;
+  padding-top: 40px;
+  font-size: 17px;
+  line-height: 1.6; 
+  margin-bottom: 40px; 
+}
+
+@media(min-width: 1920px){
+  p{
+    font-size: 25px;
+  }
+  h1{
+    font-size: 50px;
+  }
+}
+
+.socialab{
+  text-decoration: none;;  
+  color: white;
+  font-size: 1.25em;
+  margin: 3px 10px;
+}

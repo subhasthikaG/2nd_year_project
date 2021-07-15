@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+body{
+  background: rgba(223, 223, 235, 0.5);
+}
+
+.row11{
+  padding-top: 40px;
+  font-family: sans-serif;
+}
+
+.container{
+  margin-top: 40px;		
+  width: 60%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid grey;
+}
+
+.container h2{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid grey;
+  background-color: rgb(192, 189, 189);
+  font-weight: 300;
+  font-size: 170%;
+  margin-bottom: 10px;	
+}
+
+.row1, .row2, .row3, .row4{
+  /* padding-top: 15px; */
+  padding-left: 70px;
+  padding-right: 50px;	
+}
+
+.row111,.row222{
+  overflow-y: scroll;
+  height: 100px;
+}
+
+#col1{
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+#col2{
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.row3 #col1 , .row3 #col2{
+  margin-bottom: 10px;
+}
+
+h3{
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+p{
+  text-align: left;  	
+}
+
+#col2 p{
+  width: 55%;
+  text-align: right;
+}
+
+.grid{
+  line-height: 50px;
+}
+
+.grid img{
+  margin-left: 70px;
+  float: left;
+}
+
+.grid input[type="submit"]{
+  float: left;
+  padding: 0 11px;
+  margin-left: 20px;
+  color: rgb(235, 241, 241);
+  background-color: rgb(95, 95, 92);
+  border: none;
+  cursor: pointer;
+  height: 40px;
+}
+
+.grid .cancel{
+  float: left;
+}
